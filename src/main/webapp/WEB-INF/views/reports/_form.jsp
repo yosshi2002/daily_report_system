@@ -37,6 +37,6 @@
 <br /><br/>
 
 <label for="${AttributeConst.REP_LEAVING_AT.getValue()}">退勤時間</label><br />
-<input type="time" name="${AttributeConst.REP_LEAVING_AT.getValue()}" id="${AttributeConst.REP_LEAVING_AT.getValue()}" value="${report.leavingAt }" />
+<input type="time" name="${AttributeConst.REP_LEAVING_AT.getValue()}" id="${AttributeConst.REP_LEAVING_AT.getValue()}" value="${report.leavingAt }"/>
 <br /><br />
 <button type="submit">投稿</button>

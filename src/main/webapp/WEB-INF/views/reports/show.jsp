@@ -47,7 +47,6 @@
                 </tr>
             </tbody>
         </table>
-
         <c:if test="${sessionScope.login_employee.id == report.employee.id}">
             <p>
                 <a href="<c:url value='?action=${actRep}&command=${commEdt}&id=${report.id}' />">この日報を編集する</a>
