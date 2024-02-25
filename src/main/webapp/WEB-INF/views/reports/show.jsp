@@ -39,13 +39,11 @@
                 </tr>
                 <tr>
                     <th>出勤時刻</th>
-                    <fmt:parseDate value="${report.attendanceAt}" pattern="yyyy-MM-dd'T'HH:mm" var="attendanceDay" type="date" />
-                    <td><fmt:formatDate value='${attendanceDay}' pattern='yyyy-MM-dd HH:mm' /></td>
+                    <td><c:out value="${report.attendanceAt}" /></td>
                 </tr>
                 <tr>
                     <th>退勤時刻</th>
-                    <fmt:parseDate value="${report.leavingAt}" pattern="yyyy-MM-dd'T'HH:mm" var="leavingDay" type="date" />
-                    <td><fmt:formatDate value='${leavingDay}' pattern='yyyy-MM-dd HH:mm' /></td>
+                    <td><c:out value="${report.leavingAt}" /></td>
                 </tr>
             </tbody>
         </table>
